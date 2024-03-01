@@ -81,6 +81,20 @@ right: -15px;
     }
 }
 
+
+@media(max-width: 600px){
+    .tab{
+        flex-direction: column;
+    }
+   
+}
+
+@media(max-width: 460px){
+    .services_cart::after{
+        border: 0px;
+    }
+}
+
 @media(max-width: 450px){
     .menu_content-wrapper{
         padding-left: 25px;
@@ -105,13 +119,6 @@ right: -15px;
     }
 }
 
-@media(max-width: 600px){
-    .tab{
-        flex-direction: column;
-    }
-
-    
-}
 
 @media(max-width: 400px){
     .mouse{
