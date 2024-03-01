@@ -1,12 +1,12 @@
 @media(max-width:1360px){
-.services_cart::after{
+.services_cart::after, .masters_cart::after{
 top: -15px;
 right: -15px;
 }
 }
 
 @media(max-width:1284px){
-    .services_wrapper{
+    .services_wrapper, .masters_wrapper{
         justify-content: center;
         column-gap: 60px;
     }
@@ -16,6 +16,13 @@ right: -15px;
 @media(max-width:1000px){
     .menu_left, .menu_right {
     column-gap: 40px;
+}
+
+.price_wrapper{
+
+    justify-content: center;
+    flex-wrap: wrap;
+
 }
 }
 
@@ -55,7 +62,7 @@ right: -15px;
 .partners{
     margin-bottom: 50px;
 }
-.services {
+.services, .masters {
     margin-bottom: 60px;
 }
 .footer{
@@ -90,7 +97,7 @@ right: -15px;
 }
 
 @media(max-width: 460px){
-    .services_cart::after{
+    .services_cart::after, .masters_cart::after{
         border: 0px;
     }
 }
